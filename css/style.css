@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* GENERAL */
 
 .container {
@@ -33,6 +37,13 @@ h1 {
 
 /* MENù NAVIGAZIONE */
 
+#meunù {
+  position: fixed;
+  top: 34px;
+  right: 28px;
+  z-index: 9999;
+}
+
 #lista_nav li {
   list-style-type: none;
   display: inline;
@@ -48,11 +59,6 @@ h1 {
 
 a {
   text-decoration: none;
-}
-
-#lista_nav {
-  margin-left: 1600px;
-  padding-top: 41px;
 }
 
 /* SEZIONI */
